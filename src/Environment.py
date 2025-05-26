@@ -11,13 +11,10 @@ from src.utils import *
 
 global embedding_cache_
 embedding_cache_ = None
-for retries in range(10):
-    try:
-        embedding_cache_ = torch.load(os.path.join(BASE_DIR, "PolicyPersonalization/_sentence_embeddings_minilm.pt"), map_location=DEVICE, weights_only=False)
-        break
-    except:
-        print(f"Trying to read {os.path.join(BASE_DIR, 'PolicyPersonalization/_sentence_embeddings_minilm.pt')} again...")
-        time.sleep(random.random())
+try:
+    embedding_cache_ = torch.load("models/_sentence_embeddings_minilm.pt", map_location=DEVICE, weights_only=False)
+except:
+    print("Trying to read models/_sentence_embeddings_minilm.pt again...")
 
 MATCH_USING_SIMILARITY = True
 if MATCH_USING_SIMILARITY:
@@ -101,7 +98,7 @@ class Environment():
             global embedding_cache_
             object_embeddings_dict = embedding_cache_
             if object_embeddings_dict is None:
-                embedding_cache_file = os.path.join(BASE_DIR, "PolicyPersonalization/_sentence_embeddings_minilm.pt")
+                embedding_cache_file = "models/_sentence_embeddings_minilm.pt"
                 print(f"Reading embeddings from {embedding_cache_file}")
                 if os.path.exists(embedding_cache_file):
                     for retries in range(10):
@@ -112,6 +109,9 @@ class Environment():
                             print(f"Trying to read {embedding_cache_file} again...")
                             time.sleep(random.random())
                     embedding_cache_ = object_embeddings_dict
+                else:
+                    object_embeddings_dict = dict()
+            
             for obj_desc in self.full_scene.values():
                 if obj_desc['description'] not in object_embeddings_dict:
                     print(f"Embedding {obj_desc['description']}")

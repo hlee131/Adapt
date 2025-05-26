@@ -15,11 +15,7 @@ random.seed(SEED)
 np.random.seed(SEED)
 torch.manual_seed(SEED)
 
-BASE_DIR = '/opt/hpcaas/.mounts/fs-03ee9f8c6dddfba21/jtruong/maithili'
-if os.environ.get('MAITHILIS_CRAZY_ENV', None) == 'crazy':
-    BASE_DIR = '/coc/flash5/mpatel377/repos/meta'
-
-_tokenizer = AutoTokenizer.from_pretrained(f'{BASE_DIR}/models/Meta-Llama-3.1-70B-Instruct')
+_tokenizer = AutoTokenizer.from_pretrained('meta-llama/Llama-3.1-8B-Instruct')
 
 def get_from_env(env_varname, default):
     python_var = os.environ.get(env_varname, None)
@@ -397,7 +393,7 @@ def create_grammar(env, no_ask_option=False):
         + " | ".join([f'"{k.lower()}"' for k in state_change_actions]+[f'"{k.title()}"' for k in state_change_actions])
     )
 
-    rules_from_file = open(os.path.join(BASE_DIR,'PolicyPersonalization/src/planner_grammar.ebnf')).read()
+    rules_from_file = open("src/planner_grammar.ebnf").read()
 
     if not any_containers_filled:
         rules_from_file_list = rules_from_file.split("\n\n")

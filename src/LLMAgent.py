@@ -20,10 +20,8 @@ from src.utils import (
     planner_system_prompt,
     prompt_from_rollout,
     privileged_task_descriptions,
-    BASE_DIR,
     NO_CONSTRAINED_GENERATION,
 )
-sys.path.append(f"{BASE_DIR}/fast_gpt_local/habitat-llm")
 
 from env.reward_models.persona_rewards.get_preference_list import get_preference_list
           
@@ -47,7 +45,7 @@ class LLMAgent():
     def __init__(self, llm_runname=None):
         path = llm_runname
         if path is None:
-            path = f"{BASE_DIR}/models/Meta-Llama-3.1-8B-Instruct"
+            path = "meta-llama/Llama-3.1-8B-Instruct"
         self.model_in_path = path
         if path in LOCAL_MODELS:
             self.model = LOCAL_MODELS[path]['model']
@@ -55,7 +53,7 @@ class LLMAgent():
         else:    
             self.tokenizer = AutoTokenizer.from_pretrained(self.model_in_path)
             self.model_cache_dir = (
-                f"{BASE_DIR}/models/cache"
+                f"models/cache"
             )
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.model_in_path,
@@ -479,7 +477,7 @@ class LLMAgent_Planner(LLMAgent):
             action_grammar_str = None
         
         if force_ask:
-            action_grammar_str = open(os.path.join(BASE_DIR,'PolicyPersonalization/src/planner_grammar_question_only.ebnf')).read()
+            action_grammar_str = open('src/planner_grammar_question_only.ebnf').read()
         
         if no_generate:
             return None , None, action_grammar_str, [system_prompt_msg] + prompt_msgs, None

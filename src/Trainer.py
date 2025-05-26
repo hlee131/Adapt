@@ -17,7 +17,6 @@ from trl import DataCollatorForCompletionOnlyLM, SFTConfig, SFTTrainer
 
 from src.Environment import Environment
 from src.utils import (
-    BASE_DIR,
     _tokenizer,
     now_timestr,
     planner_system_prompt,
@@ -189,7 +188,7 @@ def gen_sft_and_dpo(
             os.remove(dataset_file)
 
     tokenizer = AutoTokenizer.from_pretrained(
-        f"{BASE_DIR}/models/Meta-Llama-3.1-8B-Instruct"
+        "meta-llama/Llama-3.1-8B-Instruct"
     )
 
     def use_file(fn):
@@ -422,7 +421,7 @@ class LLMAgentTrainable():
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_in_path)
         self.tokenizer.pad_token = self.tokenizer.eos_token
         self.model_cache_dir = (
-            f"{BASE_DIR}/models/cache"
+            "models/cache"
         )
         model = AutoModelForCausalLM.from_pretrained(
             self.model_in_path,
