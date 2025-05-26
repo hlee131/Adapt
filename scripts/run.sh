@@ -21,7 +21,7 @@ case "$1" in
     ;;
 
   train)  
-    data=${2:-"data/"}
+    data=${2:-"data/combined/"}
     trained_model=${3:-"models/reflection_dpo.pt"}
 
     python train.py \

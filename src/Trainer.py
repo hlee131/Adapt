@@ -571,6 +571,7 @@ class LLMAgentTrainable():
             print(f"DPO Training failed with error: {e}. If this is keyboard interrupt, ignore.")
             print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
         finally:
+            dpo_trainer.push_to_hub()
             self.save_peft()
         
 
