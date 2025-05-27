@@ -33,4 +33,22 @@ case "$1" in
   *)
     echo "Invalid task: $1"
     ;;
+  
+  ppo)
+    model=${2:-$llama_model}
+    split=${3:-0}
+    shift 3 2>/dev/null || shift 2 2>/dev/null || shift 1 2>/dev/null || true
+    echo "Starting PPO training..."
+    bash scripts/train_ppo.sh $model $split "$@"
+    ;;
+
+  *)
+    echo "Invalid task: $1"
+    echo "Available tasks: eval, train, ppo"
+    echo ""
+    echo "Examples:"
+    echo "  bash scripts/run.sh eval"
+    echo "  bash scripts/run.sh train"
+    echo "  bash scripts/run.sh ppo meta-llama/Llama-3.1-8B-Instruct 0"
+    ;;
 esac
