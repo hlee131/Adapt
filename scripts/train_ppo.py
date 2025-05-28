@@ -46,18 +46,15 @@ def get_ppo_config(args):
         per_device_train_batch_size=args.batch_size,
         gradient_accumulation_steps=args.gradient_accumulation_steps,
         num_ppo_epochs=args.ppo_epochs,
-        max_grad_norm=args.max_grad_norm,
-        vf_coef=args.vf_coef,
-        cliprange=args.cliprange,
-        cliprange_value=args.cliprange_value,
+        num_mini_batches=args.mini_batch_size,
         gamma=args.gamma,
         lam=args.lam,
-        kl_coef=args.target_kl,
-        optimize_cuda_cache=True,
-        remove_unused_columns=False,
-        dataloader_pin_memory=False,
-        report_to="wandb" if args.wandb_project else None,
+        cliprange=args.cliprange,
+        cliprange_value=args.cliprange_value,
+        vf_coef=args.vf_coef,
+        report_to="wandb" if args.wandb_project else None
     )
+
 
 
 def load_models(config, args):
@@ -128,10 +125,10 @@ def train_ppo(args):
     
     # Initialize PPO trainer
     ppo_trainer = PPOTrainer(
-        args=config,
-        processing_class=tokenizer,
-        model=policy_model,
-        ref_model=ref_model,
+        config,
+        policy_model,
+        ref_model,
+        tokenizer
     )
 
     # Initialize components
