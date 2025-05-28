@@ -41,31 +41,28 @@ def setup_wandb(args):
 
 
 def get_ppo_config(args):
-    """Create PPO configuration"""
     return PPOConfig(
-        model_name=args.model_name,
         learning_rate=args.learning_rate,
-        batch_size=args.batch_size,
-        mini_batch_size=args.mini_batch_size,
+        per_device_train_batch_size=args.batch_size,
         gradient_accumulation_steps=args.gradient_accumulation_steps,
-        ppo_epochs=args.ppo_epochs,
+        num_ppo_epochs=args.ppo_epochs,
         max_grad_norm=args.max_grad_norm,
         vf_coef=args.vf_coef,
         cliprange=args.cliprange,
         cliprange_value=args.cliprange_value,
         gamma=args.gamma,
         lam=args.lam,
-        target_kl=args.target_kl,
+        kl_coef=args.target_kl,
         optimize_cuda_cache=True,
         remove_unused_columns=False,
         dataloader_pin_memory=False,
-        log_with="wandb" if args.wandb_project else None,
+        report_to="wandb" if args.wandb_project else None,
     )
 
 
 def load_models(config, args):
     """Load policy and reference models"""
-    print(f"Loading models from {config.model_name}")
+    print(f"Loading models from {args.model_name}")
     
     model_kwargs = {
         "device_map": "auto",
@@ -81,11 +78,11 @@ def load_models(config, args):
         })
     
     policy_model = AutoModelForCausalLMWithValueHead.from_pretrained(
-        config.model_name, **model_kwargs
+        args.model_name, **model_kwargs
     )
     
     ref_model = AutoModelForCausalLMWithValueHead.from_pretrained(
-        config.model_name, **model_kwargs
+        args.model_name, **model_kwargs
     )
     
     return policy_model, ref_model
@@ -127,16 +124,16 @@ def train_ppo(args):
     
     # Load models and tokenizer
     policy_model, ref_model = load_models(config, args)
-    tokenizer = setup_tokenizer(config.model_name)
+    tokenizer = setup_tokenizer(args.model_name)
     
     # Initialize PPO trainer
     ppo_trainer = PPOTrainer(
-        config=config,
+        args=config,
+        processing_class=tokenizer,
         model=policy_model,
         ref_model=ref_model,
-        tokenizer=tokenizer
     )
-    
+
     # Initialize components
     ppo_planner_agent = LLMAgent_Planner_PPO(
         persona_id="PPO_Agent",
