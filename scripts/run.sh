@@ -61,5 +61,4 @@ case "$1" in
     echo "  bash scripts/run.sh ppo meta-llama/Llama-3.1-8B-Instruct 0"
     ;;
 
->>>>>>> Stashed changes
 esac
