@@ -440,7 +440,7 @@ class LLMAgentTrainable():
             'output_dir': self.model_out_path,
             'auto_find_batch_size': True,
             'logging_steps': 5,
-            'evaluation_strategy': "steps",
+            'eval_strategy': "steps",
             'eval_steps': 10,
             'save_steps': 10,
             'load_best_model_at_end': True,
@@ -562,7 +562,7 @@ class LLMAgentTrainable():
             args=DPOConfig(**self.training_args),
             train_dataset=datasets['train'],
             eval_dataset=datasets['test'],
-            tokenizer=self.tokenizer,
+            processing_class=self.tokenizer,
         )
         try:
             dpo_trainer.train()
