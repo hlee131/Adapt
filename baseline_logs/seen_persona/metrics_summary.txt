@@ -1,0 +1,366 @@
+--- Carlos_eval0_Prepare_eggs_for_breakfast.json ---
+Actions taken: {'ask': 7, 'open': 3, 'look_for': 1, 'move_from': 11, 'move': 11, 'freeform_contents': 1, 'turn_on': 1, 'invalid': 15}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['basil', 'bell_pepper_0', 'bowl_0', 'cabinet_0', 'cardamom_0', 'counter_0', 'cutting_board_0', 'egg_0', 'egg_carton_0', 'eggs', 'fresh_basil', 'fresh_basil_0', 'fridge_0', 'garlic_powder_0', 'garlic_powder_1', 'liquid_egg_0', 'omelet_batter_0', 'onion_0', 'pancake_mix_0', 'pepper_0', 'pepper_1', 'salt_0', 'salt_box_0', 'stove_0', 'vegan_egg_substitute_0', 'whisk']
+Entities created: ['omelet_batter_0']
+# questions asked: 7
+
+--- Carlos_eval1_Prepare_omelette_for_breakfast.json ---
+Actions taken: {'ask': 6, 'open': 2, 'look_for': 9, 'move_from': 14, 'search': 8, 'invalid': 7, 'move': 1, 'freeform': 1, 'turn_on': 1, 'freeform_contents': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['bowl_0', 'cabinet_0', 'counter_0', 'crack', 'cracked_egg_1', 'egg_1', 'egg_carton_0', 'egg_mixture_0', 'eggs', 'fridge_0', 'kettle_0', 'knife_block_0', 'milk_1', 'mushrooms', 'oat', 'oat_milk', 'oat_milk_0', 'pancake_mix_0', 'whisk']
+Entities created: ['cracked_egg_1', 'egg_mixture_0']
+# questions asked: 6
+
+--- Carlos_eval2_Prepare_cereal_for_breakfast.json ---
+Actions taken: {'look_for': 2, 'ask': 2, 'move': 2, 'open': 1, 'pour': 2, 'freeform_contents': 1, 'done': 1}
+Goal completion fraction: 0.16666666805555552
+Num preferences satisfied: 1
+Num preferences violated: 5
+Preference satisfaction rate: 0.16666666666666666
+Objects used: ['almond_milk_0', 'bowl_0', 'cabinet_0', 'cereal', 'cereal_box_1', 'counter_0', 'milk', 'milk_3', 'mixed_cereal_and_milk_0', 'stir', 'whole_wheat_shreds_cereal_0']
+Entities created: ['mixed_cereal_and_milk_0']
+# questions asked: 2
+
+--- Carlos_eval3_Make_toast_and_coffee_for_breakfast.json ---
+Actions taken: {'turn_on': 3, 'look_for': 1, 'ask': 3, 'move': 1, 'freeform': 1, 'search': 1, 'pour': 3, 'freeform_contents': 1, 'done': 1}
+Goal completion fraction: 3.3333332760676626e-09
+Num preferences satisfied: 0
+Num preferences violated: 3
+Preference satisfaction rate: 0.0
+Objects used: ['bread', 'bread_0', 'brew', 'brewed_water_0', 'coffee_machine_0', 'counter_1', 'kettle_0', 'mug_0', 'toast', 'toasted_white_bread_0', 'toaster_0', 'water', 'water_bottle_0', 'white_bread_slice_0']
+Entities created: ['brewed_water_0', 'toasted_white_bread_0']
+# questions asked: 3
+
+--- Carlos_eval4_Make_yoghurt_parfait_for_breakfast.json ---
+Actions taken: {'look_for': 3, 'ask': 3, 'move': 4, 'open': 1, 'pour': 1, 'done': 1}
+Goal completion fraction: 0.4000000012
+Num preferences satisfied: 2
+Num preferences violated: 3
+Preference satisfaction rate: 0.4
+Objects used: ['bowl_10', 'cabinet_0', 'cereal_box_3', 'counter_0', 'gluten_free_granola_0', 'granola', 'mixed_berries_0', 'vegan_yoghurt_0', 'yoghurt', 'yoghurt_2']
+Entities created: []
+# questions asked: 3
+
+--- Carlos_eval5_Make_tea_and_eggs_for_breakfast.json ---
+Actions taken: {'ask': 6, 'open': 1, 'look_for': 5, 'move_from': 9, 'turn_on': 2, 'pour': 2, 'search': 1, 'freeform': 1, 'freeform_contents': 1, 'cook': 2, 'move': 3, 'close': 1, 'done': 1}
+Goal completion fraction: 0.37500000078125006
+Num preferences satisfied: 3
+Num preferences violated: 5
+Preference satisfaction rate: 0.375
+Objects used: ['almond_milk', 'almond_milk_0', 'bell', 'bell_pepper_0', 'bowl_10', 'cabinet_1', 'chives', 'counter_0', 'crack', 'cracked_egg_0', 'earl_grey_tea_bag', 'egg_4', 'egg_carton_0', 'egg_mixture_0', 'fresh_chives', 'fridge_0', 'kettle_0', 'milk', 'milk_3', 'mug_0', 'pan_1', 'plate_0', 'scrambled_eggs_0', 'stove_0', 'table_0', 'tea', 'tea_bags_3', 'tomato', 'whisk']
+Entities created: ['cracked_egg_0', 'egg_mixture_0', 'scrambled_eggs_0']
+# questions asked: 6
+
+--- Carlos_eval6_Make_cereal_and_coffee_for_breakfast.json ---
+Actions taken: {'look_for': 5, 'ask': 5, 'open': 1, 'move': 10, 'turn_on': 1, 'pour': 2, 'search': 1, 'move_from': 1, 'invalid': 13, 'freeform': 1, 'done': 1}
+Goal completion fraction: 0.2500000009375001
+Num preferences satisfied: 2
+Num preferences violated: 6
+Preference satisfaction rate: 0.25
+Objects used: ['almond', 'almond_milk', 'almond_milk_0', 'bowl_0', 'cabinet_0', 'cereal', 'cereal_box_3', 'coffee', 'coffee_machine_0', 'counter_0', 'gluten_free_granola_0', 'knife_1', 'milk', 'milk_3', 'mug_0', 'slice', 'sliced_strawberry_0', 'strawberries', 'strawberries_box_0', 'strawberry', 'strawberry_0']
+Entities created: ['sliced_strawberry_0']
+# questions asked: 5
+
+--- Carlos_eval7_Prepare_tea_and_toast_for_breakfast.json ---
+Actions taken: {'look_for': 2, 'ask': 4, 'open': 2, 'search': 1, 'move': 3, 'turn_on': 2, 'pour': 2, 'freeform_contents': 2, 'move_from': 2, 'done': 1}
+Goal completion fraction: 0.25000000187499993
+Num preferences satisfied: 1
+Num preferences violated: 3
+Preference satisfaction rate: 0.25
+Objects used: ['bread_0', 'brewed_green_tea_0', 'cabinet_1', 'counter_0', 'green_tea_bag_0', 'kettle_0', 'lightly_toasted_white_0', 'milk', 'mug_0', 'plate_0', 'sink_1', 'steam', 'tea', 'tea_bags_0', 'toast', 'toaster_0', 'water', 'water_0']
+Entities created: ['brewed_green_tea_0', 'lightly_toasted_white_0']
+# questions asked: 4
+
+--- Jamal_eval0_Prepare_eggs_for_breakfast.json ---
+Actions taken: {'ask': 3, 'open': 1, 'search': 1, 'look_for': 1, 'move_from': 2, 'freeform': 1, 'move': 5, 'turn_on': 1, 'freeform_contents': 1, 'cook': 2, 'done': 1}
+Goal completion fraction: 0.500000000625
+Num preferences satisfied: 4
+Num preferences violated: 4
+Preference satisfaction rate: 0.5
+Objects used: ['bacon_0', 'butter_0', 'butter_2', 'cabinet_1', 'counter_0', 'crack', 'cracked_egg', 'cracked_egg_0', 'egg_0', 'egg_carton_0', 'egg_mixture_0', 'eggs', 'pan_1', 'plate_1', 'scrambled_eggs_0', 'stove_0', 'whisk']
+Entities created: ['cracked_egg', 'egg_mixture_0', 'scrambled_eggs_0']
+# questions asked: 3
+
+--- Jamal_eval1_Prepare_omelette_for_breakfast.json ---
+Actions taken: {'ask': 5, 'open': 3, 'look_for': 3, 'move_from': 4, 'search': 1, 'move': 7, 'turn_on': 4, 'freeform': 3, 'pour': 1, 'cook': 3, 'mix': 1, 'done': 1}
+Goal completion fraction: 0.500000000625
+Num preferences satisfied: 4
+Num preferences violated: 4
+Preference satisfaction rate: 0.5
+Objects used: ['bacon', 'bacon_0', 'bacon_strip_0', 'bowl_0', 'bowl_1', 'cabinet_0', 'cheddar_cheese_0', 'cheese', 'cheese_3', 'cooked_bacon_0', 'counter_0', 'crack', 'cracked_egg_0', 'drawer_1', 'egg_4', 'egg_carton_0', 'eggs', 'fold', 'folded_omelette_0', 'grate', 'grated_cheese_0', 'oil_bottle_0', 'olive_oil', 'omelette_dough_0', 'pan_0', 'plate_0', 'stove_0']
+Entities created: ['cooked_bacon_0', 'cracked_egg_0', 'folded_omelette_0', 'grated_cheese_0', 'omelette_dough_0']
+# questions asked: 5
+
+--- Jamal_eval2_Prepare_cereal_for_breakfast.json ---
+Actions taken: {'look_for': 2, 'ask': 2, 'move': 3, 'open': 1, 'pour': 2, 'freeform_contents': 1, 'done': 1}
+Goal completion fraction: 0.20000000159999998
+Num preferences satisfied: 1
+Num preferences violated: 4
+Preference satisfaction rate: 0.2
+Objects used: ['bowl_3', 'cabinet_0', 'cereal', 'cereal_box_1', 'counter_0', 'milk', 'milk_0', 'mixed_cereal_with_mil', 'stir', 'table_0', 'whole_milk_0', 'whole_wheat_shreds_cereal_0']
+Entities created: ['mixed_cereal_with_mil']
+# questions asked: 2
+
+--- Jamal_eval3_Make_toast_and_coffee_for_breakfast.json ---
+Actions taken: {'turn_on': 3, 'look_for': 1, 'ask': 3, 'move': 1, 'freeform': 1, 'pour': 3, 'search': 1, 'freeform_contents': 1, 'move_from': 1, 'done': 1}
+Goal completion fraction: 0.20000000159999998
+Num preferences satisfied: 1
+Num preferences violated: 4
+Preference satisfaction rate: 0.2
+Objects used: ['bread', 'bread_0', 'brew', 'brewed_water_0', 'butter', 'butter_0', 'coffee_machine_0', 'counter_1', 'kettle_0', 'mug_0', 'toast', 'toasted_white_bread_0', 'toaster_0', 'water', 'water_bottle_0', 'white_bread_slice_0']
+Entities created: ['brewed_water_0', 'toasted_white_bread_0']
+# questions asked: 3
+
+--- Jamal_eval4_Make_yoghurt_parfait_for_breakfast.json ---
+Actions taken: {'look_for': 7, 'ask': 5, 'move': 16, 'move_from': 5, 'invalid': 17}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['almond_milk', 'almond_milk_0', 'almonds', 'banana', 'banana_0', 'bowl_0', 'cereal_box_3', 'counter_0', 'gluten_free_granola_0', 'granola', 'milk_3', 'raspberry_yoghurt_0', 'yoghurt', 'yoghurt_1']
+Entities created: []
+# questions asked: 5
+
+--- Jamal_eval5_Make_tea_and_eggs_for_breakfast.json ---
+Actions taken: {'ask': 7, 'look_for': 4, 'open': 1, 'move_from': 3, 'turn_on': 10, 'move': 7, 'cook': 1, 'pour': 6, 'freeform': 1, 'freeform_contents': 1, 'turn_off': 4, 'done': 1}
+Goal completion fraction: 0.5833333336805555
+Num preferences satisfied: 7
+Num preferences violated: 5
+Preference satisfaction rate: 0.5833333333333334
+Objects used: ['bacon', 'bacon_0', 'bacon_strip_0', 'butter_0', 'butter_2', 'cabinet_0', 'cooked_bacon', 'counter_0', 'crack', 'cracked_egg_4', 'egg_4', 'egg_carton_0', 'eggs', 'english_breakfast_tea_bag', 'english_breakfast_tea_bag_0', 'honey_0', 'honey_1', 'kettle_0', 'milk', 'milk_0', 'mug_0', 'pan_0', 'plate_0', 'scrambled_eggs_0', 'spoon_0', 'stove_0', 'tea', 'tea_bags_4', 'water', 'water_0', 'water_bottle_0', 'whisk', 'whole_milk']
+Entities created: ['cooked_bacon', 'cracked_egg_4', 'scrambled_eggs_0']
+# questions asked: 7
+
+--- Jamal_eval6_Make_cereal_and_coffee_for_breakfast.json ---
+Actions taken: {'ask': 3, 'open': 3, 'look_for': 2, 'move': 3, 'turn_on': 1, 'pour': 5, 'freeform_contents': 1, 'done': 1}
+Goal completion fraction: 0.14285714408163264
+Num preferences satisfied: 1
+Num preferences violated: 6
+Preference satisfaction rate: 0.14285714285714285
+Objects used: ['bowl_11', 'brew', 'brewed_coffee_0', 'cabinet_0', 'cereal_box_5', 'coffee_0', 'coffee_grounds', 'coffee_machine_0', 'corn', 'corn_flakes_cereal_0', 'counter_0', 'milk', 'milk_4', 'mug_0', 'skim_dairy_milk_0']
+Entities created: ['brewed_coffee_0']
+# questions asked: 3
+
+--- Jamal_eval7_Prepare_tea_and_toast_for_breakfast.json ---
+Actions taken: {'look_for': 2, 'ask': 5, 'open': 2, 'move': 3, 'search': 1, 'turn_on': 4, 'pour': 6, 'turn_off': 3, 'move_from': 1, 'close': 1, 'done': 1}
+Goal completion fraction: 0.4000000012
+Num preferences satisfied: 2
+Num preferences violated: 3
+Preference satisfaction rate: 0.4
+Objects used: ['bread_0', 'butter', 'butter_0', 'butter_2', 'cabinet_1', 'counter_0', 'green_tea_bag_0', 'kettle_0', 'milk', 'mug_0', 'sink_1', 'tea', 'tea_bags_0', 'toaster_0', 'water', 'water_0', 'white_bread_slice_0']
+Entities created: []
+# questions asked: 5
+
+--- Juan_eval0_Prepare_eggs_for_breakfast.json ---
+Actions taken: {'ask': 4, 'look_for': 2, 'move_from': 2, 'search': 1, 'freeform': 2, 'move': 3, 'turn_on': 2, 'pour': 1, 'cook': 2, 'done': 1}
+Goal completion fraction: 0.42857142938775505
+Num preferences satisfied: 3
+Num preferences violated: 4
+Preference satisfaction rate: 0.42857142857142855
+Objects used: ['american_cheese_slice_0', 'cheese', 'cheese_0', 'counter_0', 'crack', 'cracked_egg', 'cracked_egg_0', 'egg_4', 'egg_carton_0', 'egg_mixture_0', 'eggs', 'pan_1', 'plate_0', 'scrambled_eggs_0', 'stove_0', 'whisk']
+Entities created: ['cracked_egg', 'egg_mixture_0', 'scrambled_eggs_0']
+# questions asked: 4
+
+--- Juan_eval1_Prepare_omelette_for_breakfast.json ---
+Actions taken: {'ask': 5, 'open': 3, 'look_for': 5, 'move_from': 21, 'search': 1, 'move': 3, 'pour': 1, 'freeform': 1, 'freeform_contents': 1, 'turn_on': 1, 'cook': 2, 'done': 1}
+Goal completion fraction: 0.8333333336111111
+Num preferences satisfied: 5
+Num preferences violated: 1
+Preference satisfaction rate: 0.8333333333333334
+Objects used: ['avocado_0', 'bowl_0', 'cabinet_0', 'cheddar', 'cheese_5', 'counter_0', 'crack', 'cracked_egg_0', 'egg_0', 'egg_carton_0', 'egg_mixture_0', 'eggs', 'fridge_0', 'milk', 'milk_1', 'oat_milk_0', 'omelette_0', 'pan_1', 'plate_1', 'stove_0', 'swiss_cheese_0', 'whisk']
+Entities created: ['cracked_egg_0', 'egg_mixture_0', 'omelette_0']
+# questions asked: 5
+
+--- Juan_eval2_Prepare_cereal_for_breakfast.json ---
+Actions taken: {'look_for': 2, 'ask': 2, 'open': 1, 'move': 1, 'pour': 2, 'done': 1}
+Goal completion fraction: 0.33333333555555555
+Num preferences satisfied: 1
+Num preferences violated: 2
+Preference satisfaction rate: 0.3333333333333333
+Objects used: ['bowl_0', 'cabinet_0', 'cereal', 'cereal_box_1', 'counter_0', 'milk', 'milk_0', 'whole_milk', 'whole_wheat_shreds_cereal']
+Entities created: []
+# questions asked: 2
+
+--- Juan_eval3_Make_toast_and_coffee_for_breakfast.json ---
+Actions taken: {'ask': 5, 'open': 1, 'look_for': 1, 'move': 1, 'turn_on': 5, 'move_from': 2, 'pour': 2, 'freeform_contents': 1, 'done': 1}
+Goal completion fraction: 3.3333332760676626e-09
+Num preferences satisfied: 0
+Num preferences violated: 3
+Preference satisfaction rate: 0.0
+Objects used: ['bread', 'bread_0', 'brew', 'brewed_coffee_0', 'cabinet_1', 'coffee_machine_0', 'counter_0', 'kettle_0', 'mug_1', 'sink_1', 'toaster_0', 'water', 'water_0', 'white_bread_slice_0']
+Entities created: ['brewed_coffee_0']
+# questions asked: 5
+
+--- Juan_eval4_Make_yoghurt_parfait_for_breakfast.json ---
+Actions taken: {'look_for': 4, 'ask': 4, 'move': 4, 'invalid': 1, 'open': 1, 'move_from': 1, 'done': 1}
+Goal completion fraction: 4.999999969612645e-09
+Num preferences satisfied: 0
+Num preferences violated: 2
+Preference satisfaction rate: 0.0
+Objects used: ['bowl_0', 'cabinet_0', 'counter_0', 'cranberries_0', 'dry_cranberries', 'granola', 'honey_0', 'raspberry_yoghurt_0', 'yoghurt', 'yoghurt_1']
+Entities created: []
+# questions asked: 4
+
+--- Juan_eval5_Make_tea_and_eggs_for_breakfast.json ---
+Actions taken: {'ask': 7, 'open': 2, 'look_for': 3, 'search': 1, 'move': 4, 'pour': 11, 'turn_on': 3, 'move_from': 3, 'freeform': 1, 'freeform_contents': 1, 'turn_off': 1, 'cook': 2, 'done': 1}
+Goal completion fraction: 0.3333333340740742
+Num preferences satisfied: 3
+Num preferences violated: 6
+Preference satisfaction rate: 0.3333333333333333
+Objects used: ['bowl_10', 'cabinet_0', 'cheddar_cheese', 'cheddar_cheese_0', 'cheese_3', 'counter_0', 'crack', 'cracked_egg_0', 'cup_0', 'egg_1', 'egg_carton_0', 'egg_mixture_0', 'eggs', 'kettle_0', 'milk', 'peppermint_tea_bag_0', 'plate_0', 'scrambled_eggs_0', 'sink_1', 'stove_0', 'tea', 'tea_bags_1', 'water', 'water_0', 'whisk']
+Entities created: ['cracked_egg_0', 'egg_mixture_0', 'scrambled_eggs_0']
+# questions asked: 7
+
+--- Juan_eval6_Make_cereal_and_coffee_for_breakfast.json ---
+Actions taken: {'look_for': 4, 'ask': 7, 'open': 2, 'move': 11, 'turn_on': 3, 'pour': 13, 'invalid': 10}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['cabinet_0', 'cereal', 'coffee', 'coffee_0', 'coffee_grounds_0', 'coffee_machine_0', 'coffee_table_0', 'counter_0', 'counter_1', 'kettle_0', 'milk', 'milk_0', 'pour_over_coffee_maker_0', 'sink_1', 'stove_0', 'water', 'water_0', 'whipped']
+Entities created: []
+# questions asked: 7
+
+--- Juan_eval7_Prepare_tea_and_toast_for_breakfast.json ---
+Actions taken: {'look_for': 3, 'ask': 4, 'open': 1, 'search': 1, 'move': 1, 'turn_on': 2, 'turn_off': 1, 'move_from': 1, 'pour': 6, 'done': 1}
+Goal completion fraction: 3.3333332760676626e-09
+Num preferences satisfied: 0
+Num preferences violated: 3
+Preference satisfaction rate: 0.0
+Objects used: ['bread', 'bread_0', 'cabinet_1', 'counter_0', 'english_breakfast_tea_bag', 'english_breakfast_tea_bag_0', 'kettle_0', 'milk', 'milk_0', 'mug_0', 'sink_1', 'tea', 'tea_bags_4', 'toaster_0', 'water', 'water_0', 'white_bread_slice_0', 'whole_milk']
+Entities created: []
+# questions asked: 4
+
+--- Maria_eval0_Prepare_eggs_for_breakfast.json ---
+Actions taken: {'ask': 5, 'open': 2, 'look_for': 4, 'move_from': 8, 'search': 1, 'freeform': 1, 'turn_on': 2, 'move': 2, 'freeform_contents': 1, 'cook': 2, 'done': 1}
+Goal completion fraction: 0.5000000008333334
+Num preferences satisfied: 3
+Num preferences violated: 3
+Preference satisfaction rate: 0.5
+Objects used: ['bell', 'bell_pepper_0', 'bowl_1', 'cabinet_0', 'cheese', 'cheese_3', 'counter_0', 'crack', 'cracked_egg', 'cracked_egg_0', 'drawer_1', 'egg_0', 'egg_carton_0', 'egg_mixture_0', 'eggs', 'fridge_0', 'omelette_0', 'pan_1', 'plate_0', 'salt', 'salt_box_0', 'stove_0', 'whisk']
+Entities created: ['cracked_egg', 'egg_mixture_0', 'omelette_0']
+# questions asked: 5
+
+--- Maria_eval1_Prepare_omelette_for_breakfast.json ---
+Actions taken: {'ask': 4, 'look_for': 3, 'search': 1, 'move_from': 3, 'open': 1, 'freeform': 3, 'move': 3, 'turn_on': 1, 'pour': 1, 'cook': 2, 'done': 1}
+Goal completion fraction: 0.33333333444444446
+Num preferences satisfied: 2
+Num preferences violated: 4
+Preference satisfaction rate: 0.3333333333333333
+Objects used: ['bell', 'bell_pepper_0', 'cabinet_1', 'cheese', 'cheese_3', 'cooked_egg_0', 'counter_0', 'crack', 'cracked_egg', 'cracked_egg_0', 'egg_4', 'egg_carton_0', 'eggs', 'fold', 'folded_omelette_0', 'fridge_0', 'pan_0', 'plate_0', 'stove_0', 'whisk', 'whisked_egg_0']
+Entities created: ['cooked_egg_0', 'cracked_egg', 'folded_omelette_0', 'whisked_egg_0']
+# questions asked: 4
+
+--- Maria_eval2_Prepare_cereal_for_breakfast.json ---
+Actions taken: {'look_for': 4, 'ask': 2, 'move': 1, 'pour': 2, 'done': 1}
+Goal completion fraction: 0.25000000187499993
+Num preferences satisfied: 1
+Num preferences violated: 3
+Preference satisfaction rate: 0.25
+Objects used: ['bowl', 'bowl_0', 'cereal', 'cereal_box_5', 'corn_flakes_cereal_0', 'counter_0', 'milk', 'milk_1', 'oat_milk']
+Entities created: []
+# questions asked: 2
+
+--- Maria_eval3_Make_toast_and_coffee_for_breakfast.json ---
+Actions taken: {'turn_on': 3, 'look_for': 1, 'ask': 3, 'move': 2, 'freeform': 1, 'search': 1, 'pour': 3, 'freeform_contents': 1, 'move_from': 3, 'done': 1}
+Goal completion fraction: 3.3333332760676626e-09
+Num preferences satisfied: 0
+Num preferences violated: 3
+Preference satisfaction rate: 0.0
+Objects used: ['banana_bread_slice_0', 'bread', 'bread_2', 'brew', 'brewed_coffee_0', 'coffee_machine_0', 'counter_1', 'glass_0', 'ice_tray_0', 'kettle_0', 'plate_4', 'table_0', 'toast', 'toasted_banana_bread', 'toasted_banana_bread_0', 'toaster_0', 'water', 'water_0', 'water_bottle_0']
+Entities created: ['brewed_coffee_0', 'toasted_banana_bread']
+# questions asked: 3
+
+--- Maria_eval4_Make_yoghurt_parfait_for_breakfast.json ---
+Actions taken: {'look_for': 3, 'ask': 3, 'move': 5, 'open': 1, 'pour': 5, 'mix': 1, 'done': 1}
+Goal completion fraction: 0.25000000187499993
+Num preferences satisfied: 1
+Num preferences violated: 3
+Preference satisfaction rate: 0.25
+Objects used: ['bowl_1', 'cabinet_0', 'cereal_box_3', 'counter_0', 'drinkable_yoghurt_0', 'frozen_berry_0', 'glass_2', 'gluten_free_granola_0', 'granola', 'honey', 'honey_0', 'mixed_berries_0', 'spoon_0', 'yoghurt', 'yoghurt_3', 'yoghurt_parfait_0']
+Entities created: ['yoghurt_parfait_0']
+# questions asked: 3
+
+--- Maria_eval5_Make_tea_and_eggs_for_breakfast.json ---
+Actions taken: {'ask': 6, 'look_for': 3, 'turn_on': 5, 'search': 2, 'move_from': 5, 'open': 2, 'freeform': 1, 'move': 2, 'freeform_contents': 1, 'turn_off': 2, 'cook': 1, 'invalid': 20}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['bell', 'bell_pepper_1', 'bowl_0', 'cabinet_1', 'cheese_1', 'counter_0', 'crack', 'cracked_egg', 'cracked_egg_0', 'cutting_board_0', 'egg_4', 'egg_carton_0', 'egg_mixture_0', 'eggs', 'fridge_0', 'kettle_0', 'milk', 'mozzarella_cheese', 'omelette_0', 'pan_0', 'stove_0', 'whisk']
+Entities created: ['cracked_egg', 'egg_mixture_0', 'omelette_0']
+# questions asked: 6
+
+--- Maria_eval6_Make_cereal_and_coffee_for_breakfast.json ---
+Actions taken: {'look_for': 6, 'ask': 4, 'open': 2, 'move': 4, 'turn_on': 1, 'pour': 2, 'freeform_contents': 1, 'done': 1}
+Goal completion fraction: 2.4999999848063226e-09
+Num preferences satisfied: 0
+Num preferences violated: 4
+Preference satisfaction rate: 0.0
+Objects used: ['bowl', 'bowl_0', 'brew', 'brewed_coffee_0', 'cabinet_0', 'cereal', 'cereal_box_3', 'coffee', 'coffee_machine_0', 'counter_0', 'fruit', 'gluten_free_granola_0', 'milk', 'milk_1', 'oat', 'oat_milk', 'oat_milk_0', 'oatmeal_1', 'table_0']
+Entities created: ['brewed_coffee_0']
+# questions asked: 4
+
+--- Maria_eval7_Prepare_tea_and_toast_for_breakfast.json ---
+Actions taken: {'look_for': 4, 'ask': 3, 'open': 2, 'turn_on': 2, 'move': 29, 'move_from': 1, 'search': 1, 'invalid': 7, 'pour': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['almonds_0', 'bowl_0', 'bowl_1', 'bread', 'bread_1', 'cabinet_1', 'counter_0', 'kettle_0', 'milk', 'oil_bottle_0', 'olive_oil_0', 'sugar', 'tea', 'toaster_0', 'whole_grain_bread_slice_0']
+Entities created: []
+# questions asked: 3
+
+====== OVERALL SUMMARY ======
+Total number of files processed: 32
+
+Total actions taken across all files:
+  ask: 137
+  open: 43
+  look_for: 102
+  move_from: 103
+  move: 156
+  freeform_contents: 19
+  turn_on: 63
+  invalid: 90
+  search: 26
+  freeform: 20
+  pour: 85
+  done: 26
+  cook: 19
+  close: 2
+  mix: 2
+  turn_off: 11
+
+total_pref_satisfied: 48
+total_pref_violated: 96
+Average preference satisfaction rate: 0.3333
+
+Average number of actions per category per file:
+  ask: 4.28
+  close: 0.06
+  cook: 0.59
+  done: 0.81
+  freeform: 0.62
+  freeform_contents: 0.59
+  invalid: 2.81
+  look_for: 3.19
+  mix: 0.06
+  move: 4.88
+  move_from: 3.22
+  open: 1.34
+  pour: 2.66
+  search: 0.81
+  turn_off: 0.34
+  turn_on: 1.97
+
+Average number of objects used per file: 17.97
+Average number of entities created per file: 1.59
+Average number of questions asked per file: 4.28
