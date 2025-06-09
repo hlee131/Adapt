@@ -1,0 +1,234 @@
+--- Lisa_eval0_Prepare_eggs_for_breakfast.json ---
+Actions taken: {'ask': 17, 'look_for': 2, 'freeform': 11, 'move_from': 1, 'turn_on': 1, 'cook': 3, 'invalid': 15}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['acrilyc_pan_crisp_1', 'almond_milk_and_whisk', 'almonds_0', 'avocado', 'bell_pepper_0', 'bowl_0', 'bread', 'caramelized_garlic_1', 'cheese_0', 'cooked_sausage_1', 'crack', 'cracked_egg_1', 'egg_1', 'garlic_0', 'liquid_egg_0', 'pan_fried_hash_browns_1', 'pancake_mix_0', 'sausage_0', 'scrambled_eggs_double_1', 'sear', 'tender_bell_pepper_1', 'toasted_cheece_1', 'toasted_cheese_1', 'toaster_0', 'vegan_egg_substitute', 'whisk']
+Entities created: ['acrilyc_pan_crisp_1', 'almond_milk_and_whisk', 'caramelized_garlic_1', 'cooked_sausage_1', 'cracked_egg_1', 'pan_fried_hash_browns_1', 'scrambled_eggs_double_1', 'tender_bell_pepper_1', 'toasted_cheece_1', 'toasted_cheese_1']
+# questions asked: 17
+
+--- Lisa_eval1_Prepare_omelette_for_breakfast.json ---
+Actions taken: {'ask': 19, 'look_for': 1, 'open': 1, 'move': 2, 'freeform': 4, 'done': 1}
+Goal completion fraction: 3.3333332760676626e-09
+Num preferences satisfied: 0
+Num preferences violated: 3
+Preference satisfaction rate: 0.0
+Objects used: ['almond_cream_0', 'almonds_0', 'batter_1', 'beans_0', 'cabinet_3', 'chives', 'egg_0', 'flax_egg_0', 'mix', 'mushroom_spinach_mix_0', 'pancake_mix_1', 'sausage_0', 'toaster_0', 'tofu', 'whole_grain_bread_slice']
+Entities created: ['almond_cream_0', 'batter_1', 'flax_egg_0', 'mushroom_spinach_mix_0']
+# questions asked: 19
+
+--- Lisa_eval2_Prepare_cereal_for_breakfast.json ---
+Actions taken: {'ask': 17, 'look_for': 2, 'move': 1, 'cook': 17, 'freeform': 2, 'invalid': 11}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['almonds_0', 'berrieslookforstrawbi', 'bowl_1', 'bread_1', 'caramelized_almonds', 'caramelized_almondsby_1', 'cashew_butter_by_ste_1', 'chives', 'cooked_oatmeal_by_ket_0', 'crispy_almonds_by_ste_1', 'crispy_almondsby_pan_0', 'crispy_almondsby_pan_1', 'oats', 'rehydrated_chives', 'soak', 'toast', 'toasted_bread_1']
+Entities created: ['caramelized_almonds', 'caramelized_almondsby_1', 'cashew_butter_by_ste_1', 'cooked_oatmeal_by_ket_0', 'crispy_almonds_by_ste_1', 'crispy_almondsby_pan_0', 'crispy_almondsby_pan_1', 'rehydrated_chives', 'toasted_bread_1']
+# questions asked: 17
+
+--- Lisa_eval3_Make_toast_and_coffee_for_breakfast.json ---
+Actions taken: {'ask': 40, 'look_for': 5, 'open': 1, 'move': 2, 'freeform': 2}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['asparagus', 'avocado_0', 'beans_0', 'blueberry', 'butter', 'cherrytomato', 'crack', 'cracked_egg', 'egg_0', 'guacamole_by_mashing_1', 'island_chair_0', 'island_chair_1', 'mix', 'table_0', 'toaster_0']
+Entities created: ['cracked_egg', 'guacamole_by_mashing_1']
+# questions asked: 40
+
+--- Lisa_eval4_Make_yoghurt_parfait_for_breakfast.json ---
+Actions taken: {'ask': 26, 'look_for': 1, 'freeform': 4, 'move': 4, 'open': 1, 'turn_on': 1, 'move_from': 1, 'invalid': 12}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['apple_1', 'assemble', 'avocado_0', 'beans_1', 'berries', 'bowl_1', 'cabinet_3', 'clean', 'clean_dishsoap', 'clean_strawberries', 'counter_1', 'cup_0', 'dish_soap_0', 'espresso_machine_0', 'guacamole', 'island_0', 'island_chair_0', 'mix', 'strawberries_box_0', 'wash', 'yoghurt_0', 'yoghurt_parfait_0']
+Entities created: ['clean_dishSoap', 'clean_strawberries', 'guacamole', 'yoghurt_parfait_0']
+# questions asked: 26
+
+--- Lisa_eval5_Make_tea_and_eggs_for_breakfast.json ---
+Actions taken: {'ask': 39, 'look_for': 6, 'open': 1, 'move_from': 1, 'freeform': 2, 'invalid': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['almond', 'almond_milk', 'apple_0', 'avocado', 'cabinet_3', 'crack', 'cracked_egg', 'egg_4', 'hot_water_0', 'matcha', 'milk_3', 'spinach', 'steam', 'water_bottle_0', 'whole']
+Entities created: ['cracked_egg', 'hot_water_0', 'tofu_scramble']
+# questions asked: 39
+
+--- Lisa_eval6_Make_cereal_and_coffee_for_breakfast.json ---
+Actions taken: {'ask': 38, 'look_for': 2, 'open': 1, 'move': 2, 'cook': 1, 'freeform': 3, 'move_from': 1, 'pour_into': 1, 'invalid': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['almonds_0', 'almonds_1', 'blueberries_box_0', 'bowl_1', 'bowl_2', 'cabinet_3', 'coffee', 'coffee_0', 'coffee_grounds', 'cup_1', 'milk', 'plate_1', 'raw_almonds', 'slice', 'sliced_almonds', 'sprinkle', 'sprinkled_almonds_on_', 'table_0', 'warm_granola_by_mixng_']
+Entities created: ['sliced_almonds', 'sprinkled_almonds_on_', 'warm_granola_by_mixng_']
+# questions asked: 38
+
+--- Lisa_eval7_Prepare_tea_and_toast_for_breakfast.json ---
+Actions taken: {'ask': 23, 'look_for': 2, 'move': 6, 'freeform': 3, 'turn_on': 1, 'cook': 1, 'search': 1, 'done': 1}
+Goal completion fraction: 3.3333332760676626e-09
+Num preferences satisfied: 0
+Num preferences violated: 3
+Preference satisfaction rate: 0.0
+Objects used: ['beans_0', 'bell_pepper_0', 'bread', 'bread_4', 'counter_0', 'cup_0', 'cup_1', 'cut', 'drizzle', 'gloten_free_toast_0', 'island_0', 'jam', 'kettle_0', 'oil_bottle_0', 'olive_oil_over_items', 'plate_1', 'salt_box_0', 'salt_over_items_on_gl10', 'sliced_strawberries', 'sprinkle', 'strawberries_box_0', 'toaster_0']
+Entities created: ['gloten_free_toast_0', 'olive_oil_over_items', 'salt_over_items_on_gl10', 'sliced_strawberries']
+# questions asked: 23
+
+--- Mark_eval0_Prepare_eggs_for_breakfast.json ---
+Actions taken: {'ask': 36, 'look_for': 2, 'freeform': 1, 'move_from': 1, 'mix': 2, 'cook': 6, 'move': 2}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['apple_0', 'apple_compote', 'bacon', 'bell_pepper_0', 'bowl_2', 'cooked_scrambled_eggs_1', 'counter_1', 'crack', 'cracked_egg_1', 'egg_1', 'milk', 'plate_1', 'scrambled_eggs_1', 'table_0', 'warm_apple_compote_1']
+Entities created: ['a base for the scrambled eggs? Would you like it to be heated with a small amount of butter until it\'s melted and foamy, or would you like it to be heated with a small amount of oil until it\'s hot and shimmering?"', 'apple_compote', 'cooked_scrambled_eggs_1', 'cracked_egg_1', 'lightly_toasted_white_bread, and then we will move lightly_toasted_white_bread to plate_0, and then we will move scrambled_eggs on top of lightly_toasted_white_bread on plate_0, and then we will sprinkle paprika on top of scrambled_eggs on plate_0, and finally we will serve plate_0 as \'Mark\'s Morning Scramble\'?"', 'scrambled_eggs, using the ingredients cracked_egg_1, shredded_hash_browns, and pan_cooked_bacon_1, which will be chopped into small pieces', 'scrambled_eggs_1', 'warm_apple_compote_1']
+# questions asked: 36
+
+--- Mark_eval1_Prepare_omelette_for_breakfast.json ---
+Actions taken: {'ask': 41, 'look_for': 1, 'freeform': 7, 'find': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['beaten_eggs_and_add_a_', 'crack', 'cracked_egg', 'egg_0', 'egg_1', 'mix', 'pancake_batter_andadd_1', 'pancake_mix_0', 'salt_and_add_1', 'salt_shaker_0', 'sear', 'seared_pancake_mix_1', 'season', 'seasoned_salt_and_add_1', 'thepan_which_is_not_y', 'vegetables']
+Entities created: ['beaten_eggs_and_add_a_', 'chopped_fresh_basil and use it as a garnish on top of the folded omelette, and then serve it to you with the lightly toasted whole wheat bread with butter and a cup of decaf coffee that has been made by coffee_machine_0 and is strong enough for your taste"', 'cracked_egg', 'finely_chopped_onion and then saut? the finely_chopped_onion in a pan until it is translucent, and then add the mushrooms and bell peppers and cook until they are tender', 'finely_chopped_onion and then saut? the finely_chopped_onion in a pan until it is translucent, or would you like me to saut? the object onion_0 to get partially_cooked_onion first and then chop it?"', 'pancake_batter_andAdd_1', 'salt_and_add_1', 'seared_pancake_mix_1', 'seasoned_salt_and_add_1']
+# questions asked: 41
+
+--- Mark_eval2_Prepare_cereal_for_breakfast.json ---
+Actions taken: {'ask': 23, 'look_for': 1, 'turn_on': 1, 'move_from': 1, 'freeform': 2}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a_small_amount_of_hav_0', 'agave_syrup_0', 'bowl_2', 'bread_0', 'cereal', 'cereal_box_2', 'drizzle', 'light_swiss_muesli', 'toast', 'toasted_white_bread', 'toaster_0']
+Entities created: ['a_small_amount_of_hav_0', 'toasted_white_bread']
+# questions asked: 23
+
+--- Samantha_eval0_Prepare_eggs_for_breakfast.json ---
+Actions taken: {'ask': 39, 'look_for': 3, 'move': 1, 'freeform': 7}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['avocado', 'avocado_0', 'beans_0', 'bread_1', 'crush', 'crushed_garlic_powder', 'dice', 'diced_potato', 'egg_1', 'egg_2', 'egg_mixture_by_add_1', 'garlic_powder_0', 'island_chair_0', 'mashed_avocado_by_add_1', 'milk', 'mix', 'peel', 'peeled_potato', 'peeled_potato_0', 'potato_0', 'sear', 'seared_egg_1', 'toast', 'toasted_bread', 'vegetables']
+Entities created: ['cooked_omelette \'Veggie Omelette\'"', 'crushed_garlic_powder', 'diced_potato', 'egg_mixture_by_add_1', 'finely_chopped_onion and then caramelize it, or would you like to caramelize it first and then chop it?"', 'mashed_avocado_by_add_1', 'peeled_potato', 'seared_egg_1', 'toasted_bread']
+# questions asked: 39
+
+--- Samantha_eval1_Prepare_omelette_for_breakfast.json ---
+Actions taken: {'ask': 41, 'look_for': 4, 'open': 1, 'freeform': 4}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['alightly_brown_base', 'cabinet_1', 'crack', 'cracked_egg_4', 'egg_4', 'eggs', 'fresh', 'milkandask', 'mix', 'pancake_mix_0', 'salt_shaker_0', 'sear', 'season', 'seasoned_saltandask', 'shallot', 'whipped_cream_0', 'whipped_cream_andthen']
+Entities created: ['alightly_brown_base', 'chopped_fresh_parsley and place it on top of the omelette, and then serve the omelette with lightly_toasted_regular-toast and a side of sliced_fresh_banana"', 'cracked_egg_4', 'finely_chopped_mushroom and Chop the object tomato_1 to get finely_chopped_tomato, but since you didn\'t ask for tomato, I\'ll ask if you\'d like me to look for them and chop them for you?"', 'finely_chopped_mushroom and saut e the finely_chopped_mushroom in pan_1 with a small amount of unsalted butter until they are softened"', 'finely_chopped_onion and Chop the object bell_pepper_0 to get finely_chopped_bell_pepper?"', 'seasoned_saltandAsk', 'softened_onion, and then we can add the chopped mushrooms to it and cook until they release their moisture and start to brown, and then we can add the chopped bell pepper to it and cook until it\'s tender, and then we can mix all the items in the pan to get a well combined mixture of mushrooms, onions, and bell peppers, and then we can ask you if you\'d like to add any seasonings to the mixture, and then we can ask you if you\'d like to fold the omelette and cook for another minute or two, and then we can ask you if you\'re ready for me to plate the omelette with the lightly toasted regular toast and a side of sliced fresh banana? "', 'whipped_cream_andthen']
+# questions asked: 41
+
+--- Samantha_eval2_Prepare_cereal_for_breakfast.json ---
+Actions taken: {'ask': 39, 'look_for': 2, 'move': 5, 'turn_on': 1, 'freeform': 3}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['almonds_0', 'banana_0', 'bananalookforanobject', 'beans_0', 'beans_1', 'bread_1', 'cereal', 'crunchy_topping', 'cut', 'island_chair_0', 'lightly_toasted_bread_1', 'mix', 'plate_0', 'sliced_banana', 'sliced_banana_0', 'table_0', 'toast', 'toaster_0', 'whole_wheat_shreds_cereal']
+Entities created: ['chopped_fresh_mint and add it on top of the cup of peppermint tea, or would you like it to be served without any garnish?"', 'crunchy_topping', 'lightly_toasted_bread_1', 'sliced_banana']
+# questions asked: 39
+
+--- Samantha_eval3_Make_toast_and_coffee_for_breakfast.json ---
+Actions taken: {'ask': 45, 'look_for': 2, 'turn_on': 1, 'freeform': 2}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['cherry', 'crack', 'cracked_egg', 'egg_0', 'egg_1', 'egg_mixture', 'milk', 'mix', 'toaster_0']
+Entities created: ['cracked_egg', 'egg_mixture']
+# questions asked: 45
+
+--- Samantha_eval4_Make_yoghurt_parfait_for_breakfast.json ---
+Actions taken: {'ask': 41, 'look_for': 2, 'open': 1, 'freeform': 5, 'move': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['aripe', 'assemble', 'avocado_0', 'bread_1', 'cranberries_0', 'crush', 'crushed_cranberries_1', 'cut', 'frothed_oat_milk_1', 'granola', 'milk_1', 'plate_0', 'sliced_avocado', 'toasted_bread', 'toaster_0', 'whole_grain_bread_slice', 'yoghurt_0', 'yoghurt_parfait_by_as_1']
+Entities created: ['crushed_cranberries_1', 'frothed_oat_milk_1', 'sliced_avocado', 'toasted_bread', 'yoghurt_parfait_by_as_1']
+# questions asked: 41
+
+--- Samantha_eval5_Make_tea_and_eggs_for_breakfast.json ---
+Actions taken: {'ask': 24, 'look_for': 4, 'open': 1, 'turn_on': 1, 'freeform': 2, 'move': 16, 'freeform_contents': 1, 'move_from': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['avocado', 'avocado_0', 'beans_2', 'bowl_1', 'cabinet_3', 'crack', 'cracked_egg_1', 'cutting_board_0', 'egg_1', 'eggs', 'island_0', 'island_chair_0', 'island_chair_1', 'kettle_0', 'oat', 'plate_0', 'scrambled_eggs', 'scrambled_eggs_0', 'season', 'seasoned_scrambled_eg_1', 'tea', 'toaster_0', 'whisk']
+Entities created: ['cracked_egg_1', 'scrambled_eggs', 'seasoned_scrambled_eg_1']
+# questions asked: 24
+
+--- Samantha_eval6_Make_cereal_and_coffee_for_breakfast.json ---
+Actions taken: {'ask': 31, 'look_for': 9, 'turn_on': 2, 'open': 2, 'search': 1, 'invalid': 2, 'move': 2, 'freeform': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['avocadooil', 'banana', 'beans_1', 'bread', 'cabinet_3', 'counter_0', 'crack', 'cracked_egg', 'egg_4', 'island_chair_0', 'kettle_0', 'light', 'milk', 'milkagain', 'plate_2', 'table_0', 'toaster_0']
+Entities created: ['cracked_egg', 'finely_chopped_onion and saut finely_chopped_onion in a pan with some olive oil until it is translucent']
+# questions asked: 31
+
+--- Samantha_eval7_Prepare_tea_and_toast_for_breakfast.json ---
+Actions taken: {'ask': 21, 'look_for': 3, 'open': 1, 'search': 1, 'freeform': 2, 'move': 2, 'invalid': 1, 'done': 1}
+Goal completion fraction: 1.6666666935449825e-09
+Num preferences satisfied: 0
+Num preferences violated: 6
+Preference satisfaction rate: 0.0
+Objects used: ['bell_pepper_1', 'bread', 'cabinet_3', 'chamomile', 'crack', 'cracked_egg', 'cup_1', 'egg_5', 'island_0', 'lemon', 'pancake_mix_0', 'plate_1', 'season', 'seasoned_pancake_mix', 'table_0']
+Entities created: ['cracked_egg', 'pan_fried_egg, using cracked_egg_0?"', 'seasoned_pancake_mix']
+# questions asked: 21
+
+====== OVERALL SUMMARY ======
+Total number of files processed: 19
+
+Total actions taken across all files:
+  ask: 600
+  look_for: 54
+  freeform: 67
+  move_from: 7
+  turn_on: 9
+  cook: 28
+  invalid: 43
+  open: 11
+  move: 46
+  done: 3
+  pour_into: 1
+  search: 3
+  mix: 2
+  find: 1
+  freeform_contents: 1
+
+total_pref_satisfied: 0
+total_pref_violated: 12
+Average preference satisfaction rate: 0.0000
+
+Average number of actions per category per file:
+  ask: 31.58
+  cook: 1.47
+  done: 0.16
+  find: 0.05
+  freeform: 3.53
+  freeform_contents: 0.05
+  invalid: 2.26
+  look_for: 2.84
+  mix: 0.11
+  move: 2.42
+  move_from: 0.37
+  open: 0.58
+  pour_into: 0.05
+  search: 0.16
+  turn_on: 0.47
+
+Average number of objects used per file: 17.68
+Average number of entities created per file: 5.00
+Average number of questions asked per file: 31.58

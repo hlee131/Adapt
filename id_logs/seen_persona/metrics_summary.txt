@@ -1,0 +1,344 @@
+--- Carlos_eval0_Prepare_eggs_for_breakfast.json ---
+Actions taken: {'look_for': 27, 'ask': 4, 'invalid': 19}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'aeggshellorapackageof', 'afruitiwilladdfreshfr', 'alocationtoeatwithaeg', 'aprotein', 'aproteinagainiwilltry', 'atablewhereyoucaneati', 'awholegrainbreadlook', 'awholegrainbreadlooki', 'butter', 'cheese', 'egg', 'eggs', 'fruitiwillalsoaskyoua', 'meat', 'salt', 'vegetables']
+Entities created: []
+# questions asked: 4
+
+--- Carlos_eval1_Prepare_omelette_for_breakfast.json ---
+Actions taken: {'look_for': 39, 'ask': 11}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'afruitagainnothgnothg', 'afruitkitchenislandno', 'alocationforbreakfast', 'aplace', 'aplacekitchenislandno', 'aprotein', 'aproteinagain', 'aproteinalternative', 'aprotomato', 'aveganeggsubstitutegl', 'awholegrainagainnothg', 'awholegrainbreadagain', 'awholegrainoatmealbox', 'aworkstationisland', 'aworkstationislandno', 'butter', 'cheese', 'cheeseagain', 'egg', 'eggs', 'eggsagain', 'omelette', 'salt', 'vegetables']
+Entities created: []
+# questions asked: 11
+
+--- Carlos_eval2_Prepare_cereal_for_breakfast.json ---
+Actions taken: {'look_for': 36, 'invalid': 14}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'abreakfast', 'abreakfastingredient', 'acoffee', 'aegg', 'afruit', 'afruitkitchenislandk', 'aprotein', 'atable', 'awhite', 'awhole', 'awholewheatshredds', 'awholewheatshreddsbar', 'awholewhole', 'awholewholewholewhole', 'cereal', 'fruit', 'milk']
+Entities created: []
+# questions asked: 0
+
+--- Carlos_eval3_Make_toast_and_coffee_for_breakfast.json ---
+Actions taken: {'look_for': 31, 'open': 2, 'ask': 6, 'move_from': 2, 'invalid': 9}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['acoffee', 'acoffeebeanlookforacq', 'acoffeelookforcoffeei', 'aproteinlookforaprote', 'aproteinlookforaproti', 'bread_0', 'breadlookfor', 'butterlookforbutterno', 'cabinet_0', 'coffee', 'coffee_machine_0', 'egg', 'eggs', 'fruitlookfor', 'island_0', 'toaster_0', 'white_bread_slice', 'white_bread_slice_0']
+Entities created: []
+# questions asked: 6
+
+--- Carlos_eval4_Make_yoghurt_parfait_for_breakfast.json ---
+Actions taken: {'look_for': 50}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'afruitiwanttoaddtoyog', 'berriesagainiremember', 'berrieslookforberries', 'breakfastingredientsi', 'breakfastlocationisee', 'breakfasttableiseea', 'breakfasttableithinky', 'coffee', 'fruit', 'fruitagainiremembered', 'granola', 'honey', 'ingredientsforbreakfi', 'ingredientsforparfait', 'ingredientsforyoghurp', 'ingredientsforyoghurt', 'nuts', 'nutsagainirememberedy', 'parfaitglassithinkyou', 'sweetenerlookfora', 'vanillairememberedyou', 'yoghurt', 'yoghurtlookforyoghurt', 'yoghurtparfaitglassiw', 'yoghurtparfaitobjecti', 'yoghurtparfaitrecipei', 'yogurtagainirememberd', 'yogurtparfaitbaseisee']
+Entities created: []
+# questions asked: 0
+
+--- Carlos_eval5_Make_tea_and_eggs_for_breakfast.json ---
+Actions taken: {'look_for': 47, 'invalid': 2, 'ask': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['afruitforbreakfastisn', 'alocationtoeatbreakf', 'alocationtoeatbreakfi', 'aplaceforbreakfastinb', 'aplaceforbreakfastisn', 'aplantbasedmilkforveg', 'aprotein', 'aproteinagain', 'aproteinagainiaskwhat', 'aproteinagainimeanask', 'aproteiniaskwhatyoume', 'aproteinimeanaskabout', 'aproteinithinkyoumean', 'avegetabletoaddtoeggs', 'coffee', 'eggs', 'eggsagain', 'eggsagainimeanaskwhat', 'fruitforfruitorvegeta', 'plant', 'salt', 'vegetablesforvegetaor']
+Entities created: []
+# questions asked: 1
+
+--- Carlos_eval6_Make_cereal_and_coffee_for_breakfast.json ---
+Actions taken: {'look_for': 45, 'ask': 2, 'invalid': 3}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'abreakfasttablewithap', 'acoffee', 'acoffeeagainwithaplan', 'acoffeebeaner', 'acoffeebeaneragainisn', 'acoffeeisnotanegglook', 'afruit', 'afruitagain', 'afruitagainisnotanegg', 'afruitisnotanegglook', 'afruitisnotanegglookk', 'alocationtoeatcoffee', 'aplace', 'cereal', 'coffee', 'eggsforcoffeeisnotane', 'milkfor']
+Entities created: []
+# questions asked: 2
+
+--- Carlos_eval7_Prepare_tea_and_toast_for_breakfast.json ---
+Actions taken: {'look_for': 43, 'open': 2, 'ask': 2, 'invalid': 3}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['afruittoeatwithyourve', 'alocationtoeatiaskedi', 'aproteinicorrectedask', 'aproteinicorrectediap', 'awholegrainbreadwhole', 'butter_0', 'buttericorrectedlooki', 'cheeseicorrectedlooki', 'coffee', 'eggsagainicorrectedi', 'eggsagainicorrectedia', 'eggsicorrectedlookfor', 'fruitagainicorrectedi', 'fruiticorrectediwilli', 'fruiticorrectedlooki', 'honeyicorrectedlooki', 'island', 'island_0', 'kettleagainicorrected', 'kettleicorrectedlooki', 'nutsicorrectediwillia', 'salticorrectedlookias', 'sugaricorrectedlooki', 'toasticorrectedlook', 'toastwholewholewholei', 'vegetablesicorrectedi', 'whole']
+Entities created: []
+# questions asked: 2
+
+--- Jamal_eval0_Prepare_eggs_for_breakfast.json ---
+Actions taken: {'look_for': 39, 'ask': 7, 'invalid': 3, 'move_from': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'aegg', 'aeggshellassistantily', 'aeggshellassistantlyi', 'aforkassistantlyiseea', 'afruitassistantially', 'afruitassistantiallyi', 'agrillassistantiallyi', 'alocationtoaddseasons', 'aplace', 'aplacekitchenislandk', 'aprotein', 'aproteinagainithinkig', 'aproteinassistantilyi', 'baconassistantlyiseea', 'cheese', 'egg', 'egg_0', 'egg_carton_0', 'eggs', 'eggsagain', 'parsley']
+Entities created: []
+# questions asked: 7
+
+--- Jamal_eval1_Prepare_omelette_for_breakfast.json ---
+Actions taken: {'look_for': 27, 'ask': 2, 'invalid': 21}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['afruitforomeletteisno', 'alocationtoeatbreakf', 'alocationtoeatbreakfi', 'aprotein', 'aproteinagain', 'aproteinagainiwilltry', 'aproteiniwilllookfora', 'aproteiniwilllookforl', 'butter', 'cheese', 'egg', 'eggs', 'herbs', 'meatlook', 'omelette', 'salt', 'vegetables']
+Entities created: []
+# questions asked: 2
+
+--- Jamal_eval2_Prepare_cereal_for_breakfast.json ---
+Actions taken: {'look_for': 43, 'move_from': 1, 'ask': 5, 'invalid': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'abanana', 'abreakfast', 'acoffee', 'afruit', 'afruitloops', 'agluten', 'aprotein', 'atable', 'awhite', 'awhole', 'bowl_4', 'cereal', 'cereal_box_4', 'cocoa_puffs_cereal', 'fruit', 'milk', 'whole']
+Entities created: []
+# questions asked: 5
+
+--- Jamal_eval3_Make_toast_and_coffee_for_breakfast.json ---
+Actions taken: {'look_for': 43, 'ask': 1, 'open': 1, 'move_from': 1, 'invalid': 3, 'move': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['aprotein', 'bacon', 'banana', 'banana_bread_slice', 'banana_bread_slice_0', 'bread', 'bread_2', 'butter', 'butter_0', 'butteragainimeanaskdo', 'coffee', 'coffeeagainimeanaskdo', 'egg', 'eggagainimeanaskdoigi', 'eggagainimeanaskdoyou', 'eggs', 'eggsagain', 'eggshellagainimeanask', 'finely', 'fruit', 'fruitagainimeanlook', 'island', 'island_0', 'island_chair_0', 'islandagainimeanaskdo', 'nutsagainimeanaskdo', 'saltagainimeanaskdoig', 'sugar', 'toastagainimeanaskdoi']
+Entities created: []
+# questions asked: 1
+
+--- Jamal_eval4_Make_yoghurt_parfait_for_breakfast.json ---
+Actions taken: {'look_for': 43, 'invalid': 7}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'aberriesicanuseanykys', 'abreakfasttableihavea', 'acontainerforparfaiti', 'afruitforparfaitihave', 'afruitforparfaitiwill', 'aobjecttoaddtoyoghurp', 'aproteinforparfaitiam', 'berriesagainiremember', 'berrieslookforberries', 'coffee', 'fruit', 'fruitagainiremembered', 'granola', 'honey', 'ingredientsforbreakfi', 'ingredientsforparfait', 'nuts', 'nutsagainirememberedy', 'sweeteneraskdo', 'yoghurt', 'yoghurtparfaitobjecti', 'yoghurtparfaitrecipei', 'yogurtagainihaveyogh']
+Entities created: []
+# questions asked: 0
+
+--- Jamal_eval5_Make_tea_and_eggs_for_breakfast.json ---
+Actions taken: {'look_for': 37, 'invalid': 10, 'ask': 2, 'open': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['afruitforeggsideskips', 'alocationtoeatbreakf', 'alocationtoeatbreakfi', 'aprotein', 'aproteinagain', 'aproteinagainimeanmea', 'aproteinforbaconmeans', 'aproteinimeanmeatforj', 'aproteinithinkyoumean', 'aproteinmeansmeatforj', 'aproteinnowthatwemake', 'aproteinsourceagain', 'coffee', 'egg_carton_0', 'eggs', 'eggsagain', 'eggsagainbecausewemad', 'fruitforbreakfastskew', 'salt', 'toast', 'vegetablesforbreakfno']
+Entities created: []
+# questions asked: 2
+
+--- Jamal_eval6_Make_cereal_and_coffee_for_breakfast.json ---
+Actions taken: {'look_for': 48, 'ask': 2}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'abanana', 'abreakfasttableisland', 'acoffee', 'acoffeebeanislandkitt', 'acoffeebeanisnotneccs', 'acoffeeislandkittisfj', 'aeggisnotnecessaryfis', 'afruitforbreakfastisf', 'afruitforcoffeeisnotf', 'afruitisnotnecessaryf', 'afruitisnotrelevant', 'afruitloops', 'alocationforcoffeeisn', 'aplace', 'aplaceforbreakfastisn', 'aplaceforcoffeeisland', 'aproteinforbreakfasto', 'cereal', 'coffee', 'fruit', 'milkfor']
+Entities created: []
+# questions asked: 2
+
+--- Jamal_eval7_Prepare_tea_and_toast_for_breakfast.json ---
+Actions taken: {'look_for': 45, 'ask': 2, 'invalid': 3}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['aprotein', 'aproteinagain', 'aproteinagainiwilltry', 'aproteiniwilltryagain', 'aproteinreplacingwith', 'butter', 'cheeseirememberedyouh', 'coffee', 'eggs', 'eggsagainiremembered', 'eggsagainiwilluseitfi', 'fruit', 'fruitagainiremembered', 'fruitagainiwilluseitf', 'honeyirememberedyouhj', 'island', 'islandagainiwilluseit', 'kettle', 'kettleagainiwilluseit', 'nutsirememberedyouask', 'saltlook', 'spreads', 'sugar', 'toast', 'toastspreadirememberj', 'whole', 'wholegrain', 'wholegrainbreadagaini', 'wholegrainbreadiwilll']
+Entities created: []
+# questions asked: 2
+
+--- Juan_eval0_Prepare_eggs_for_breakfast.json ---
+Actions taken: {'look_for': 31, 'invalid': 5, 'ask': 13, 'move': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'aegg', 'afruitagainisnotthoig', 'afruittoaddtoeggsketo', 'alocationtoaddavocadt', 'alocationtoaddcheesto', 'alocationtoeatbreakfa', 'aprotein', 'aproteinagainisnottho', 'cheese', 'egg', 'egg_4', 'eggs', 'island', 'saltshaker', 'whole']
+Entities created: []
+# questions asked: 13
+
+--- Juan_eval1_Prepare_omelette_for_breakfast.json ---
+Actions taken: {'look_for': 22, 'ask': 23, 'invalid': 5}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'aisdsklfjlkasjdfklasj', 'aprotein', 'aproteinagain', 'arecipeforbreakfasto', 'butter', 'cheese', 'cheeseagain', 'eggs', 'eggsagain', 'islandagain', 'omeletteagain', 'protein', 'salt', 'vegetables']
+Entities created: []
+# questions asked: 23
+
+--- Juan_eval2_Prepare_cereal_for_breakfast.json ---
+Actions taken: {'look_for': 34, 'invalid': 16}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'abreakfastingredient', 'abreakfasttablebreakf', 'acoffee', 'afruitfruitfruitloops', 'afruitloopsfruitloops', 'aglutenfreeglutenfree', 'aingredientingredient', 'aplace', 'atable', 'awhole', 'awholegrainwholegrain', 'awholewheatwholewheat', 'cereal', 'fruit', 'milk', 'whole']
+Entities created: []
+# questions asked: 0
+
+--- Juan_eval3_Make_toast_and_coffee_for_breakfast.json ---
+Actions taken: {'look_for': 40, 'invalid': 9, 'ask': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'aprotein', 'aproteinithinkyoumean', 'aproteiniwillaskyouai', 'aproteinlookiremember', 'baconithinkyoumeanask', 'breakfastbariremember', 'butter', 'butteragainirememberb', 'coffee', 'coffeeagainirememberi', 'coffeebeansirememberi', 'eggs', 'eggsagain', 'eggsagainirememberyou', 'eggsirememberyouasked', 'fruit', 'fruitagainiremembered', 'fruitagainithinkyoume', 'islandirememberyouask', 'kitchenirememberyouha', 'meatlookithinkyoumean', 'nutsithinkyoumeanaska', 'sidesirememberyouaskf', 'sugarlook', 'toastlookirememberyou']
+Entities created: []
+# questions asked: 1
+
+--- Juan_eval4_Make_yoghurt_parfait_for_breakfast.json ---
+Actions taken: {'look_for': 45, 'ask': 2, 'invalid': 3}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['acontainerforparfaiti', 'afruitagainialsolooki', 'afruitforparfaitagain', 'afruitforparfaitialso', 'agrainforparfaitialso', 'alocationforbreakfast', 'alocationforparfaitia', 'aobjecttoaddtobreakfi', 'aobjecttoaddtoyoghurt', 'aproteinforparfaitiap', 'berriesagainialsolook', 'berriesialsolookedfor', 'coffee', 'fruit', 'fruitagainialsolooked', 'granolaialsolookedfor', 'greek', 'honeyialsolookedforah', 'island', 'nuts', 'nutsagainialsolookedi', 'parfaitsauceialsolook', 'yoghurt', 'yogurtagainialsolooki']
+Entities created: []
+# questions asked: 2
+
+--- Juan_eval5_Make_tea_and_eggs_for_breakfast.json ---
+Actions taken: {'look_for': 32, 'ask': 1, 'invalid': 17}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['alocationforyourbreak', 'aprotein', 'aproteinagain', 'aproteinfreeobject', 'aproteinfreeobjectspk', 'coffee', 'eggs', 'eggsagain', 'fruit', 'salt']
+Entities created: []
+# questions asked: 1
+
+--- Juan_eval6_Make_cereal_and_coffee_for_breakfast.json ---
+Actions taken: {'look_for': 47, 'ask': 3}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'acoffeebeanforcoffeee', 'acoffeeisland', 'acoffeeislandisnotanu', 'afruitforbreakfastisn', 'afruitforcerealisnthe', 'aproteinforcoffeeisn', 'bananas', 'cereal', 'coffee', 'fruit', 'gluten', 'milkfor']
+Entities created: []
+# questions asked: 3
+
+--- Juan_eval7_Prepare_tea_and_toast_for_breakfast.json ---
+Actions taken: {'look_for': 49, 'invalid': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'acoffee', 'afruiticorrectediaski', 'aproteinicorrectedias', 'avegetableicorrectedi', 'breadaskicorrectedias', 'butteraskicorrectedi', 'cheeseicorrectediaski', 'coffee', 'eggsagainicorrectedi', 'eggsagainicorrectedia', 'eggsicorrectedlookfor', 'fruitagainicorrectedi', 'fruiticorrectedlook', 'fruitloopsagainiaskia', 'fruitloopsicorrectedi', 'honeyicorrectediaskia', 'island', 'islandkitchenaskiaias', 'kettleicorrectedlooki', 'salticorrectedlookiwe', 'sugaricorrectediaskia', 'sugaricorrectedlooki', 'toastaskiaiaskiaiaski', 'toastaskiaskiaskiaski', 'toastaskicorrectedias', 'toastspreadingspreadi', 'toastspreadingspreads', 'toastyouneedtofindaeg', 'vegetablesicorrectedi']
+Entities created: []
+# questions asked: 0
+
+--- Maria_eval0_Prepare_eggs_for_breakfast.json ---
+Actions taken: {'look_for': 34, 'ask': 15, 'move_from': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'acontainerfortheeggs', 'aegg', 'afruitlikebananasorap', 'afruitlikeorangesorle', 'afruitthatyoucanaddto', 'alocationtoaddaddings', 'alocationtoaddyouradd', 'alocationtoaddyourbae', 'alocationtoaddyouregg', 'aplacefortheeggsnow', 'aproteinlikehamorlamb', 'aproteinthatyoucanadd', 'arecipeforbreakfasteg', 'aseasoningtoaddtothee', 'avegetable', 'avegetablelikebellpep', 'avegetablelikeonionor', 'avegetablethatyoucanw', 'cheese', 'egg_4', 'egg_carton_0', 'eggs', 'island_0']
+Entities created: []
+# questions asked: 15
+
+--- Maria_eval1_Prepare_omelette_for_breakfast.json ---
+Actions taken: {'look_for': 37, 'ask': 5, 'move': 2, 'invalid': 6}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'aprotein', 'aproteinagainithinkih', 'aproteinagainiwillask', 'aproteinagainiwilltry', 'aproteinithinkyoumean', 'asparaguslookforaskiw', 'bell', 'butter', 'butteragainirememberb', 'cheese', 'cheeseagainiremembery', 'egg', 'egg_4', 'eggs', 'eggsagain', 'eggshelllookforaskiwi', 'island', 'islandagainirememberk', 'meatlookforlookforask', 'mozzarella', 'omelette', 'omeletteingredientsih', 'omelettepanlookforask', 'parsleyagainiremember', 'saltandspices', 'spinachlook', 'vegetables']
+Entities created: []
+# questions asked: 5
+
+--- Maria_eval2_Prepare_cereal_for_breakfast.json ---
+Actions taken: {'look_for': 23, 'invalid': 27}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'abreakfastlocationinm', 'aereal', 'afruit', 'afruitagainwithaparti', 'alocationwhereyoucanm', 'aplacewhereyoucanmake', 'awhole', 'awholegrain', 'awholegrainbreadinthe', 'cereal']
+Entities created: []
+# questions asked: 0
+
+--- Maria_eval3_Make_toast_and_coffee_for_breakfast.json ---
+Actions taken: {'look_for': 43, 'open': 2, 'invalid': 3, 'move': 1, 'ask': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['aprotein', 'aproteinaskdoyouwantp', 'aproteinaskwhatdoyouh', 'aproteinaskwhatkindof', 'baconaskdo', 'breadaskdoyouhaveanyf', 'breakfastaskdoyouwant', 'breakfasttableaskdoyo', 'butter', 'butteraskdoyouwantbun', 'coffee', 'coffee_machine_0', 'egg_1', 'eggs', 'eggsaskdotheeggshavem', 'eggsaskdoyouhaveanyeg', 'eggsaskdoyouwanteggsf', 'fruit', 'fruitaskdoyouwantanyf', 'island', 'island_0', 'meataskdoyouwantmeatw', 'nutsaskdoyouwantanybq', 'object', 'proteinaskwhatkindofp', 'saltaskdo', 'saltaskdoyouhaveanygj', 'sidesaskdoyouwantanyb', 'sugaraskdoyoupreferwh', 'toastaskdoyouwantanyt', 'toastspreadaskdoyouhj']
+Entities created: []
+# questions asked: 1
+
+--- Maria_eval4_Make_yoghurt_parfait_for_breakfast.json ---
+Actions taken: {'look_for': 48, 'ask': 1, 'invalid': 1}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['acoffee', 'acontainerforparfaiti', 'acontainerforyoghurti', 'afruitagainiremembera', 'afruitagainirememberk', 'afruitagainirememberp', 'afruitagainiremembery', 'afruitagainiwillstart', 'afruitagainiwilltryto', 'afruitthatyoulikeiask', 'agrainirememberyouask', 'aobjecttoaddtoyoghurt', 'aproteinirememberyouw', 'aproteinithinkyouneed', 'atablewhereyoucaneati', 'berriesagainiremember', 'berrieslook', 'fruit', 'fruitagainiremembered', 'fruitagainiwilltrytoh', 'granola', 'honey', 'nuts', 'nutsagainirememberedy', 'yoghurt']
+Entities created: []
+# questions asked: 1
+
+--- Maria_eval5_Make_tea_and_eggs_for_breakfast.json ---
+Actions taken: {'look_for': 36, 'ask': 2, 'invalid': 12}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['alocationtoeat', 'aprotein', 'aproteinagain', 'aproteinagainicorrect', 'cheeseagain', 'coffee', 'eggs', 'eggsagain', 'fruit', 'island', 'salt', 'vegetables']
+Entities created: []
+# questions asked: 2
+
+--- Maria_eval6_Make_cereal_and_coffee_for_breakfast.json ---
+Actions taken: {'look_for': 40, 'ask': 1, 'invalid': 9}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['a', 'acoffee', 'acoffeeagainisnotanap', 'acoffeeisnotanobjecti', 'afruitisnotrelevant', 'afruitisnotrelevantis', 'afruitloops', 'afruitloopsagainisnot', 'afruittoaddtoyourcere', 'alocationtoeatcoffee', 'aplace', 'aproteinoradditiontoy', 'cereal', 'cerealcoffeeisnotanap', 'coffee', 'eggsforcoffee', 'fruit', 'gluten', 'milkfor']
+Entities created: []
+# questions asked: 1
+
+--- Maria_eval7_Prepare_tea_and_toast_for_breakfast.json ---
+Actions taken: {'look_for': 46, 'ask': 2, 'move': 2}
+Goal completion fraction: 0
+Num preferences satisfied: 0
+Num preferences violated: 0
+Preference satisfaction rate: None
+Objects used: ['abreakfasttableagaini', 'afruitagainthiswillbe', 'ahostagainthiswillbea', 'aigradeagainthiswillb', 'aprotein', 'aproteinagain', 'aproteinagainiwillask', 'aproteinagainiwilltry', 'asmoothsurfaceagainno', 'avocadoagainthiswillb', 'awanagainthiswillbeai', 'bread', 'butter', 'butteragainthiswillbe', 'cheeseaskaboutcheeseb', 'coffee', 'eggs', 'eggsagainthiswillbeeg', 'eggshellagainthiswill', 'fruit', 'fruitagainthiswillbea', 'fruitloops', 'honey', 'honey_0', 'honeyisland', 'island', 'island_0', 'kettle', 'kettleagainthiswillbe', 'meatnoaskthisisaporkl', 'nutsagainnoaskthisisb', 'saltshaker', 'spreadsagainthiswillb', 'sugar', 'toastagainthiswillbea', 'toaster_0', 'toastspreadagainthisw', 'toastspreadingspread']
+Entities created: []
+# questions asked: 2
+
+====== OVERALL SUMMARY ======
+Total number of files processed: 32
+
+Total actions taken across all files:
+  look_for: 1250
+  ask: 117
+  invalid: 212
+  open: 8
+  move_from: 6
+  move: 7
+
+Average preference satisfaction rate: N/A (no preferences recorded)
+
+Average number of actions per category per file:
+  ask: 3.66
+  invalid: 6.62
+  look_for: 39.06
+  move: 0.22
+  move_from: 0.19
+  open: 0.25
+
+Average number of objects used per file: 21.72
+Average number of entities created per file: 0.00
+Average number of questions asked per file: 3.66
