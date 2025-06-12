@@ -18,25 +18,9 @@ def run_task(
 ):
     env = Environment(scene)
     
-    max_steps_executed = parameters['max_steps_executed']
-    max_steps_predicted = parameters['max_steps_predicted']
-    action_only_planner = (not parameters['interleave_thought']) if 'interleave_thought' in parameters else False
-    no_history_planner = parameters['no_history_planner'] if 'no_history_planner' in parameters else False
-    unconstrained_planner = parameters['unconstrained_planner'] if 'unconstrained_planner' in parameters else False
-    if 'no_ask_option' not in parameters:
-        parameters['no_ask_option'] = False
-    parameters['no_ask_option'] = parameters['no_ask_option'] or parameters['use_privileged_prior']
-    planner = LLMAgent_Planner(persona_id, **parameters)
     persona = LLMAgent_Persona(persona_id, **parameters)
-    force_question_every_n = parameters['force_question_every_n'] if 'force_question_every_n' in parameters else None
-    planner.add_user_info(prior_user_info)
     reward_ask = -1
     max_completion_reward = 50
-    steps_remaining = max_steps_executed
-    max_steps_w_failure = max_steps_predicted
-    if force_question_every_n is not None:
-        max_steps_w_failure = int(max_steps_w_failure * (1/force_question_every_n + 1))
-        max_steps_executed = int(max_steps_executed * (1/force_question_every_n + 1))
 
     rollout_data = {
         "task": task,
@@ -64,16 +48,12 @@ def run_task(
     }
     rollout_data.update(additional_data)
     persona.task = task
-    if parameters['use_privileged_prior']:
-        assert prior_user_info is None, "Prior user info and privileged prior cannot both be used"
-        planner.add_user_info(persona.privileged_preferences)
-    rollout_data["prior_persona_knowledge"] = planner.user_info
     if os.path.exists(data_filepath):
         rollout_data = json.load(open(data_filepath))
         env = Environment(json.loads(rollout_data["initial_scene"]))
     failure_streak = 0
     privileged_info_at_step = None
-    for step in range(max_steps_w_failure):
+    for step in range(50):
         if len(rollout_data["rollout"]) > step:
             if rollout_data["rollout"][step]["success"]:
                 action = rollout_data["rollout"][step]["action"]
@@ -84,30 +64,12 @@ def run_task(
 
         privileged_info_at_step = get_privileged_preferences_at_step(rollout_data)
         progress_summ = env.summarize_progress()
-        force_ask = False
-        if force_question_every_n is not None:
-            actions = [rolloutstep['action_enum'] for rolloutstep in rollout_data['rollout'][-force_question_every_n:]]
-            if 'ask' not in actions and len(actions) == force_question_every_n:
-                force_ask = True
-        action, thought, grammar, prompt, prob_response = planner(env, 
-                                                rollout_data["rollout"], 
-                                                task, 
-                                                progress_summ=progress_summ, 
-                                                privileged_info_at_step=privileged_info_at_step if parameters['use_privileged_prior'] else None, 
-                                                no_generate=False,
-                                                action_only=action_only_planner,
-                                                no_history=no_history_planner,
-                                                unconstrained_planner=unconstrained_planner,
-                                                force_ask=force_ask,
-                                                )
+        environment_prompt = env.prompt_string()
+        print(f"Environment Info:\n{environment_prompt}")
+        action = input("Enter your action: ")
         rollout_data["episode_length"] += 1
         success, msg, action_enum, action_args = env.step(action)
-        if success:
-            steps_remaining -= 1
-        if VERBOSE_RUNLEVEL:
-            print(f"--------------------------------")
-            print(f"Thought: {thought}\nAction: {action}")
-            print(f"Observation: {msg}\n", end="")
+        thought, grammar, prompt, prob_response = "", None, "", 1.0
         current_interaction = {
             "step": env.step_num,
             "progress_summary": progress_summ,
@@ -194,10 +156,6 @@ def run_task(
             ]: 
                 print(f"WARNING: You forgot to handle action {action_enum} in invoking the persona agent!!!")
 
-        if step >= max_steps_w_failure - 1 or steps_remaining < 0:
-            rollout_data["goal_completion_reward"] = 0
-            rollout_data["finished"] = True
-
         current_interaction["reward"] = reward
 
         rollout_data["rollout"].append(current_interaction)
@@ -221,4 +179,4 @@ def run_task(
                 print()
             break
 
-    return deepcopy(planner), deepcopy(persona)
+    return
